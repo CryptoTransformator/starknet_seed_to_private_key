@@ -2,8 +2,11 @@ import { ethers } from "ethers";
 import { ec, encode } from "starknet";
 import { getStarkPair } from "./argentkeyDerivation.js";
 import fs from "fs";
+import chalk from "chalk";  // Import the chalk library
 
 const { sanitizeBytes, addHexPrefix } = encode;
+
+console.log(chalk.green("Created by https://t.me/crypto_trans"));
 
 export function recoverPrivateKeyFromMnemonic(mnemonic, baseDerivationPath = "m/44'/9004'/0'/0") {
     const ethersWallet = ethers.Wallet.fromMnemonic(mnemonic);
@@ -23,4 +26,4 @@ const privateKeys = mnemonics.map(mnemonic => recoverPrivateKeyFromMnemonic(mnem
 
 fs.writeFileSync("./data/argent_privat_key", privateKeys.join("\n"));
 
-console.log("Private keys are written here ./data/argent_privat_key");
+console.log(chalk.green("Private keys are written here ./data/argent_privat_key")); 
