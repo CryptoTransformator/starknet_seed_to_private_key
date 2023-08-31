@@ -3,7 +3,7 @@ This repository contains a Node.js script that reads a list of mnemonics (seed p
 
 0. Install Node.js / npm and open terminal.
 1. Download or clone repo
-'git clone https://github.com/your-username/argent-private-key-recovery.git'
+'git clone https://github.com/CryptoTransformator/argent-private-key-recovery.git'
 2. Install dependencies
 'npm install ethers starknet lodash chalk'
 3. Navigate to the project directory
