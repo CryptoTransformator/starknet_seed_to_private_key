@@ -5,7 +5,7 @@ This repository contains a Node.js script that reads a list of mnemonics (seed p
 1. Download or clone repo
 'git clone https://github.com/your-username/argent-private-key-recovery.git'
 2. Install dependencies
-'npm install ethers starknet lodash'
+'npm install ethers starknet lodash chalk'
 3. Navigate to the project directory
 'cd 'insert_path_folder'
 4. Insert seed phrases in ./data/argent_seed file
