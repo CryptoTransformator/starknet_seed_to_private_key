@@ -1,7 +1,6 @@
 # starknet_seed_to_private_key
 This repository contains a Node.js script that reads a list of mnemonics (seed phrase) from a file and generates the corresponding Argent private keys in decimal format. The private keys are then saved to another file.
 
-Installation
 0. Install Node.js / npm and open terminal.
 1. Download or clone repo
 'git clone https://github.com/your-username/argent-private-key-recovery.git'
