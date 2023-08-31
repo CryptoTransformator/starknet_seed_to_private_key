@@ -12,3 +12,5 @@ This repository contains a Node.js script that reads a list of mnemonics (seed p
 5. Run the code
 'node main.js'
 6. Find you private keys in ./data folder.
+
+https://t.me/crypto_trans
